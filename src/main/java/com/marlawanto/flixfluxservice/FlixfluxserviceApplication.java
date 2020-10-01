@@ -28,7 +28,7 @@ public class FlixfluxserviceApplication {
 				.andRoute(GET("/movies/{id}/events"), handler::events);
 
 	}
-	
+
 
 	public static void main(String[] args) {
 		SpringApplication.run(FlixfluxserviceApplication.class, args);
